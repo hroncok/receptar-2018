@@ -19,7 +19,7 @@ def nacti_recept(jmeno):
 
 
 NAZVY_RECEPTU = [
-    'chlebova_pochoutka.txt', "babovka.txt", "bramboraky.txt", "krupicova_kase.txt", "milky_shake", "naDobrouNaladu.txt", "palacinky.txt", "pivo.txt", "puding.txt", "rosti.txt", "tajny_recept.txt", "thajka_kureci_polevka.txt", "zeleny_caj.txt"
+    'chlebova_pochoutka.txt', "babovka.txt", "bramboraky.txt", "krupicova_kase.txt", "milky_shake", "naDobrouNaladu.txt", "palacinky.txt", "pivo.txt", "puding.txt", "rosti.txt", "tajny_recept.txt", "thajska_kureci_polevka.txt", "zeleny_caj.txt"
 ]
 
 
