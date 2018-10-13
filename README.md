@@ -9,6 +9,11 @@ Projekt slouží k vytvoření receptáře nejenom pro účastníky kurzů a wor
 ## Návod
 
 ## Testy
+Jak spustit testy:
+
+```shell
+$ python3 -m pytest tests
+````
 Testování by bylo fajn, nicméně nemáme na něj dostatečnou lidskou kapacitu. Můžeš se zapojit do rozvoje projektu a testy
 nám pomoci připravit.
 
