@@ -19,9 +19,10 @@ def nacti_recept(jmeno):
 
 
 NAZVY_RECEPTU = [
-    'chlebova_pochoutka.txt',
+    'chlebova_pochoutka.txt', "babovka.txt", "bramboraky.txt", "krupicova_kase.txt", "milky_shake", "naDobrouNaladu", "palacinky.txt", "pivo.txt", "puding.txt", "rosti.txt", "tajny_recept.txt", "thajka_kureci_polevka.txt", "zeleny_caj.txt"
 ]
 
 
 # Máme zatím jen jeden recept, tak ho prostě ukážeme
-print(nacti_recept(NAZVY_RECEPTU[0]))
+for i in NAZVY_RECEPTU:
+    print(nacti_recept(i))
