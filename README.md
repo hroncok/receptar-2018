@@ -43,6 +43,8 @@ Testování by bylo fajn, nicméně nemáme na něj dostatečnou lidskou kapacit
 nám pomoci připravit.
 
 ## Zapojení se do tvorby
+Pokud byste měli zájem se podílet na spolutvorbě tohoto _Receptáře_, napište prosím soukromou zprávu autorovi projektu [@hroncok](https://github.com/hroncok) či proveďte u sebe lokální změny a zašlete _Pull request_ na původní projekt. Autoři budou velmi rádi za jakékoliv kontruktivní návrhy, které vylepší stávající úroveň _Receptáře_ k lepšímu :sparkles:.
+
 
 ## Autoři projektu
 Původním autorem a majitelem projektu je [@hroncok](https://github.com/hroncok), pod jehož dohledem je receptář udržován. Dalšími autorkami a autory jsou účastníci
