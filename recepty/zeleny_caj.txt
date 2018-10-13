@@ -1,3 +1,8 @@
+Ingredience:
+ * voda // podle potřeby
+ * zelený čaj// sypaný nebo pytlíkový
+
+
 příprava zeleného čaje
 evropská verze (bez čajového obřadu)
 
@@ -6,4 +11,4 @@ ale použijeme pytlíkový zelený, lépe sypaný
 
 doporučení:
 nepoužijeme vroucí vodu, ale jen horkou
-necháme louhovat dle potřeby a odolnosti
+necháme louhovat dle potřeby a odolnosti jedince
