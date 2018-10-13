@@ -1,4 +1,5 @@
 import os.path
+import sys
 
 
 def nacti_recept(jmeno):
@@ -10,8 +11,11 @@ def nacti_recept(jmeno):
     adresar_projektu = os.path.dirname(tenhle_script)
     adresar_receptu = os.path.join(adresar_projektu, 'recepty')
     cesta_k_receptu = os.path.join(adresar_receptu, jmeno)
-    with open(cesta_k_receptu, 'r') as f:
-        return f.read()
+    try:
+        with open(cesta_k_receptu, 'r') as f:
+            return f.read()
+    except FileNotFoundError as e:
+        sys.exit('Bohuzel soubor s receptem neexistuje: {}'.format(cesta_k_receptu))
 
 
 NAZVY_RECEPTU = [
