@@ -10,7 +10,21 @@ Pro instalaci receptáře není nic specifického potřeba krom několika bodů:
   * Pro klonovaný repozitář pomocí _clone_ rozbalování není nutné
 
 ## Spuštění
+Pro spuštění _Receptáře_ potřebujete:
+* V příkazové řádce změnit aktuální složku na takovou, do níž jste rozbalili stažený ZIP či v níž naklonovaný repozitář z Githubu pomocí _clone_
+* V příkazové řádce či terminálu spustit příkaz
+  * V případě, že máte nainstalovaný Python ve verzi 2.7 s vyšší ```python
+python receptar.py
+```
+  * či máte-li nainstalovaný Python ve verzi 3.6 a vyšší ```python
+python3 receptar.py
+```
 
+Aktuální verzi Pythonu, který máte nainstalovaný, můžete určit spuštěním ```python
+python --version
+``` či ```python
+python3 --version
+```
 ## Návod
 
 ## Testy
