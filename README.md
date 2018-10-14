@@ -4,7 +4,7 @@ Projekt slouží k vytvoření receptáře nejenom pro účastníky kurzů a wor
 
 ## Instalace
 Pro instalaci receptáře není nic specifického potřeba krom několika bodů:
-* Mít nainstalovaný Python (např. z [těchto stránek](https:\\www.python.org)), ideálně ve verzi 2.7 či 3.6
+* Mít nainstalovaný Python (např. z [těchto stránek](https:\\www.python.org)), ideálně ve verzi 3.6
 * Stáhnout si poslední verzi repozitáře z Githubu v zabaleném souboru [ZIP](https://github.com/hroncok/receptar/archive/master.zip) nebo si jej můžete naklonovat (git clone) z adresy https://github.com/hroncok/receptar
   * V případě stažení souboru ZIP je potřeba jej rozbalit do vámi zvolené vybrané složky
   * Pro klonovaný repozitář pomocí _clone_ rozbalování není nutné
@@ -12,27 +12,18 @@ Pro instalaci receptáře není nic specifického potřeba krom několika bodů:
 ## Spuštění
 Pro spuštění _Receptáře_ potřebujete:
 * V příkazové řádce změnit aktuální složku na takovou, do níž jste rozbalili stažený ZIP či v níž naklonovaný repozitář z Githubu pomocí _clone_
-* V příkazové řádce či terminálu spustit příkaz
-  * V případě, že máte nainstalovaný Python ve verzi 2.7 s vyšší 
-```python
-python receptar.py
-```
-  * či máte-li nainstalovaný Python ve verzi 3.6 a vyšší 
-```python
-python3 receptar.py
+* V příkazové řádce či terminálu spustit příkaz máte-li nainstalovaný Python ve verzi 3.6 a vyšší 
+```console
+$ python3 receptar.py
 ```
 
-Aktuální verzi Pythonu, který máte nainstalovaný, můžete určit spuštěním 
-```python
-python --version
+Aktuální verzi Pythonu, který máte nainstalovaný, můžete určit spuštěním
+```console
+$ python3 --version
 ``` 
-či 
-```python
-python3 --version
-```
 
 ## Návod
-
+Po spuštění programu a vypsání všech receptů si je můžete postupně projít a pokud je to alespoň trochu možné, tak dodržovat doporučené postupy uvedené v receptech. Autoři receptáře nenesou zodpovědnost za újmu způsobenou nedodržením doporučených postupů.
 ## Testy
 Jak spustit testy:
 
