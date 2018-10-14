@@ -4,15 +4,26 @@ Projekt slouží k vytvoření receptáře nejenom pro účastníky kurzů a wor
 
 ## Instalace
 Pro instalaci receptáře není nic specifického potřeba krom několika bodů:
-* Mít nainstalovaný Python (např. z [těchto stránek](https:\\www.python.org)), ideálně ve verzi 2.7 či 3.6
+* Mít nainstalovaný Python (např. z [těchto stránek](https:\\www.python.org)), ideálně ve verzi 3.6
 * Stáhnout si poslední verzi repozitáře z Githubu v zabaleném souboru [ZIP](https://github.com/hroncok/receptar/archive/master.zip) nebo si jej můžete naklonovat (git clone) z adresy https://github.com/hroncok/receptar
   * V případě stažení souboru ZIP je potřeba jej rozbalit do vámi zvolené vybrané složky
   * Pro klonovaný repozitář pomocí _clone_ rozbalování není nutné
 
 ## Spuštění
+Pro spuštění _Receptáře_ potřebujete:
+* V příkazové řádce změnit aktuální složku na takovou, do níž jste rozbalili stažený ZIP či v níž naklonovaný repozitář z Githubu pomocí _clone_
+* V příkazové řádce či terminálu spustit příkaz máte-li nainstalovaný Python ve verzi 3.6 a vyšší 
+```console
+$ python3 receptar.py
+```
+
+Aktuální verzi Pythonu, který máte nainstalovaný, můžete určit spuštěním
+```console
+$ python3 --version
+``` 
 
 ## Návod
-
+Po spuštění programu a vypsání všech receptů si je můžete postupně projít a pokud je to alespoň trochu možné, tak dodržovat doporučené postupy uvedené v receptech. Autoři receptáře nenesou zodpovědnost za újmu způsobenou nedodržením doporučených postupů.
 ## Testy
 Jak spustit testy:
 
@@ -23,6 +34,8 @@ Testování by bylo fajn, nicméně nemáme na něj dostatečnou lidskou kapacit
 nám pomoci připravit.
 
 ## Zapojení se do tvorby
+Pokud byste měli zájem se podílet na spolutvorbě tohoto _Receptáře_, napište prosím soukromou zprávu autorovi projektu [@hroncok](https://github.com/hroncok) či proveďte u sebe lokální změny a zašlete _Pull request_ na původní projekt. Autoři budou velmi rádi za jakékoliv kontruktivní návrhy, které vylepší stávající úroveň _Receptáře_ k lepšímu :sparkles:.
+
 
 ## Autoři projektu
 Původním autorem a majitelem projektu je [@hroncok](https://github.com/hroncok), pod jehož dohledem je receptář udržován. Dalšími autorkami a autory jsou účastníci
